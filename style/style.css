@@ -3,3 +3,16 @@
     src: url(Raleway-Regular.ttf);
 }
 
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+header nav ul li {
+    margin-right: 15px;
+}
