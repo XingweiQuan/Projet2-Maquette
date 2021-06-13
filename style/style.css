@@ -16,3 +16,29 @@ header nav ul {
 header nav ul li {
     margin-right: 15px;
 }
+
+.SearchFilter {
+    display: flex;
+    margin-top: 30px;
+}
+
+.SearchFilterTitle {
+    display: flex;
+    align-items: center;
+    margin: 0 0 5px 0; /* Comment definir margin en px */
+}
+
+.SearchFilterList {
+    list-style-type: none;
+    display: flex;
+}
+
+.SearchFilterList li {
+    margin-right: 15px;
+}
+
+.SearchResult {
+    display: flex;
+    align-items: center;
+    margin: 15px 0 30px 0;
+}
