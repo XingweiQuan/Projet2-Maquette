@@ -17,6 +17,14 @@ header nav ul li {
     margin-right: 15px;
 }
 
+.HeaderNavLink {
+    color: #0065FC;
+}
+
+.HeaderSignUpLink {
+    color: #0065FC;
+}
+
 .SearchFilter {
     display: flex;
     margin-top: 30px;
@@ -41,4 +49,60 @@ header nav ul li {
     display: flex;
     align-items: center;
     margin: 15px 0 30px 0;
+}
+
+#Hosting {
+    display: flex;
+    justify-content: space-around;
+}
+
+.HostingLeft, .HostingRight {
+    background-color: #F2F2F2;
+}
+
+.HostingLeft {
+    max-width: 50%;
+}
+
+.HostingRight {
+    max-width: 30%;
+}
+
+.HostingLeftArticleBox {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.HostingLeftArticle {
+    background-color: white;
+    max-height: 40%;
+    max-width: 30%;
+    margin: auto;
+}
+
+.HostingLeftArticleFigureImg {
+    max-height: 60%;
+    max-width: 100%;
+}
+
+.HostingRightArticleBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.HostingRightArticle {
+    background-color: white;
+    max-height: 30%;
+    max-width: 80%;
+    margin-bottom: 15px;
+}
+
+.HostingRightArticleFigureImg {
+    max-height: 100%;
+    max-width: 40%;
 }
