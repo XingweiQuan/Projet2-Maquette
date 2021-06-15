@@ -239,6 +239,10 @@ header nav ul li {
     justify-content: space-around;
 }
 
+.HostingRightHeader i {
+    font-size: 1.5rem;
+}
+
 .HostingRightArticles {
     display: flex;
     flex-direction: column;
