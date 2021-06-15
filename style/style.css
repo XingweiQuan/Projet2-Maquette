@@ -292,6 +292,10 @@ header nav ul li {
 }
 
 
+#Activity {
+    display: flex;
+    flex-direction: column;
+}
 
 .ActivityMain {
     width: 100%;
@@ -299,7 +303,7 @@ header nav ul li {
     margin-top: 1.5rem;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .ActivityMainArticleColumn {
@@ -375,6 +379,11 @@ header nav ul li {
     object-position: center; 
 }
 
+.ActivityMainArticleTitle {
+    padding-left: 1rem;
+    font-weight: bold;
+    font-size: 0.8rem;
+}
 
 
 
