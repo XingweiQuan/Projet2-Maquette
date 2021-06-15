@@ -22,7 +22,7 @@ header nav ul {
 }
 
 header nav ul li {
-    margin-right: 15px;
+    margin-right: 30px;
 }
 
 .HeaderNavLink {
@@ -36,20 +36,81 @@ header nav ul li {
 
 /* SEARCH */
 
-.SearchFilter {
+.Search {
     display: flex;
-    margin-top: 30px;
+    flex-direction: column;
+  }
+
+.SearchHeader p {
+    color: gray;
 }
 
-.SearchFilterTitle {
+.SearchForm {
+    display: flex;
+}
+
+.SearchForm input {
+    border: none;
+    font-weight: bold;
+    font-size: 1.1em;
+    padding-left: 1rem;
+}
+
+.SearchFormIcon {
     display: flex;
     align-items: center;
-    margin: 0 0 5px 0; /* Comment definir margin en px */
+    justify-content: center;
+    padding: 1rem;
+    background-color: #F2F2F2;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-right: none;
+  }
+
+  .SearchFormButton {
+    color: white;
+    background-color: #0065fc;
+    border: none;
+    padding: 1rem;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-weight: bold;
+    font-size: 1.1em;
+  }
+
+.SearchFilters {
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
 }
+
+.SearchFilter {
+    margin-left: 1rem;
+  }
 
 .SearchFilterList {
     list-style-type: none;
     display: flex;
+}
+
+.SearchFilterButton {
+    display: flex;
+    background-color: white;
+    border: 1px solid #F2F2F2;
+    border-radius: 30px;
+    padding: 1rem;
+    font-weight: bold;
+    
+}
+
+.SearchFilterButtonIcon {
+    background-color: #DEEBFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #0065FC;
+    border-radius: 30px;
+    padding:1rem;
 }
 
 .SearchFilterList li {
@@ -80,15 +141,15 @@ header nav ul li {
 }
 
 .HostingLeft h2 {
-    padding-top: 30px;
-    padding-left: 30px;
+    padding-top: 2rem;
+    padding-left: 2rem;
 }
 
 .HostingLeft a {
     color: black;
     font-weight: bold;
-    padding-left: 30px;
-    padding-bottom: 30px;
+    padding-left: 2rem;
+    padding-bottom: 2rem;
   }
 
 .HostingLeftArticles {

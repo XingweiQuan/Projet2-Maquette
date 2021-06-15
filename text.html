@@ -34,29 +34,41 @@
                     <p>En plein centre ville ou en plein nature</p>
                 </div>
                 <form class="SearchForm" method="post" action="#">  <!-- SearchForm -->
+                    <div class="SearchFormIcon">
                     <i class="fas fa-map-marker-alt"></i>
+                    </div>
                     <input type="search" placeholder="Marseille, France">
-                    <input type="submit" value="Rechercher">
+                    <button type="submit" class="SearchFormButton">
+                        <span>Rechercher</span>
+                    </button>
                 </form>            
-                <div class="SearchFilter"> <!-- SearchFilters -->
+                <div class="SearchFilters"> <!-- SearchFilters -->
                     <h2 class="SearchFilterTitle">Filtres</h2>
-                    <div class="SearchFilters"> <!-- UL LI -->
+                    <div class="SearchFilter"> <!-- UL LI -->
                         <ul class="SearchFilterList">
-                            <li class="SearchFilter1">
+                            <li class="SearchFilterButton">
+                                <div class="SearchFilterButtonIcon">
                                 <i class="fas fa-money-bill-wave"></i>
-                                <span class="SearchFilterTitle1">Économique</span>
+                                </div>
+                                <span>Économique</span>
                             </li>
-                            <li class="SearchFilter2">
-                                <i class="fas fa-child"></i>  
-                                <span class="SearchFilterTitle2">Familial</span>
+                            <li class="SearchFilterButton">
+                                <div class="SearchFilterButtonIcon">
+                                <i class="fas fa-child"></i>
+                                </div>
+                                <span>Familial</span>
                             </li>
-                            <li>
+                            <li class="SearchFilterButton">
+                                <div class="SearchFilterButtonIcon">
                                 <i class="fas fa-heart"></i>
-                                <span class="SearchFilterTitle3">Romantique</span>
+                                </div>
+                                <span>Romantique</span>
                             </li>
-                            <li>
+                            <li class="SearchFilterButton">
+                                <div class="SearchFilterButtonIcon">
                                 <i class="fas fa-dog"></i>
-                                <span class="SearchFilterTitle4">Animaux autorisés</span>
+                                </div>
+                                <span>Animaux autorisés</span>
                             </li>
                         </ul>
                     </div>
