@@ -308,11 +308,11 @@ header nav ul li {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    flex-wrap: nowrap;
 }
 
 .ActivityMainArticle {
     background-color: white;
+    height: 100%;
     border-radius: 20px;
     border: 1px solid;
     max-width: 22%;
@@ -325,6 +325,7 @@ header nav ul li {
     border-radius: 20px;
     border: 1px solid;
     max-width: 100%;
+    height: 45%;
     display: flex;
     flex-direction: column;
 }
@@ -334,6 +335,7 @@ header nav ul li {
     border-radius: 20px;
     border: 1px solid;
     max-width: 100%;
+    height: 45%;
     display: flex;
     flex-direction: column;
 }
@@ -343,6 +345,7 @@ header nav ul li {
     border-radius: 20px;
     border: 1px solid;
     max-width: 100%;
+    height: 45%;
     display: flex;
     flex-direction: column;
 }
@@ -352,6 +355,7 @@ header nav ul li {
     border-radius: 20px;
     border: 1px solid;
     max-width: 100%;
+    height: 45%;
     display: flex;
     flex-direction: column;
 }
@@ -368,7 +372,7 @@ header nav ul li {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    object-position: bottom; 
+    object-position: center; 
 }
 
 
