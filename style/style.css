@@ -51,6 +51,8 @@ header nav ul li {
 
 .SearchForm input {
     border: none;
+    border-top: 1px solid #F2F2F2;
+    border-bottom: 1px solid #F2F2F2;
     font-weight: bold;
     font-size: 1.1em;
     padding-left: 1rem;
@@ -85,7 +87,7 @@ header nav ul li {
 }
 
 .SearchFilter {
-    margin-left: 1rem;
+    margin-left: 0.5rem;
   }
 
 .SearchFilterList {
@@ -95,12 +97,19 @@ header nav ul li {
 
 .SearchFilterButton {
     display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: white;
     border: 1px solid #F2F2F2;
     border-radius: 30px;
-    padding: 1rem;
+    padding-right: 1rem;
     font-weight: bold;
-    
+    font-size: 1.1em;
+    margin-right: 1rem;
+}
+
+.SearchFilterButton span {
+    padding-left: 1rem;
 }
 
 .SearchFilterButtonIcon {
@@ -108,19 +117,33 @@ header nav ul li {
     display: flex;
     align-items: center;
     justify-content: center;
+    height: 1.5rem;
+    width: 1.5rem; 
     color: #0065FC;
     border-radius: 30px;
     padding:1rem;
 }
 
-.SearchFilterList li {
-    margin-right: 15px;
-}
-
 .SearchResult {
     display: flex;
     align-items: center;
-    margin: 15px 0 30px 0;
+    padding: 2rem 0;
+}
+
+.SearchResult span {
+    color: gray;
+    padding-left: 1rem;
+}
+
+.SearchResultIcon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border:1px solid gray;
+    height: 1rem;
+    width: 1rem;
+    border-radius: 30px;
+    padding: 0.5rem;
 }
 
 
