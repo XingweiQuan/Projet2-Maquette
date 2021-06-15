@@ -197,7 +197,7 @@ header nav ul li {
 }
 
 .HostingLeftArticleFigure {
-    height: 100%;
+    width: 100%;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     overflow: hidden;
@@ -290,3 +290,51 @@ header nav ul li {
 .HostingRightArticleGrade .lightgray {
     color:#F2F2F2;
 }
+
+
+
+.ActivityMain {
+    width: 100%;
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ActivityMainArticle {
+    background-color: white;
+    border-radius: 20px;
+    border: 1px solid;
+    height: 500px;
+    max-width: 22%;
+    
+    display: flex;
+    flex-direction: column;
+}
+
+.ActivityMainArticleFigure {
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    overflow: hidden;
+    flex: 1;
+}
+
+.ActivityMainArticleFigureImg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.Column {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
