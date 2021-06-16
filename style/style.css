@@ -26,10 +26,12 @@ header nav ul li {
 
 .HeaderNavLink {
     color: #0065FC;
+    text-decoration: none;
 }
 
 .HeaderSignUpLink {
     color: #0065FC;
+    text-decoration: none;
 }
 
 
