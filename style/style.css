@@ -5,7 +5,7 @@
 
 .BodyMain {
     max-width: 95%;
-    margin: auto;
+    margin: auto; /* Pourquoi margin auto est obligatoire */
 }
 
 /* HEADER */
@@ -385,5 +385,34 @@ header nav ul li {
     font-size: 0.8rem;
 }
 
+#Footer {
+    background-color: #F2F2F2;
+    margin-top: 2rem;
+    padding: 2rem 0;
+}
 
+.FooterBox {
+    width: 95%;
+    margin: auto; /* Pourquoi margin auto est obligatoire */
+    display: flex;
+    justify-content: space-between;
+}
+
+.FooterContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.FooterContentLink {
+    display: flex;
+    flex-direction: column;
+}
+
+.FooterContentLink a {
+    color: black;
+    padding-bottom: 0.5rem;
+    text-decoration: none;
+}
 
