@@ -21,20 +21,22 @@ header nav ul {
     display: flex;
 }
 
-header nav ul li {
-    color: #0065FC;
-    text-decoration: none;
+header nav ul li {  
     margin-right: 30px;
 }
 
 .actif {
+    color: #0065FC;
     border-top: 3px solid #0065FC;
 }
 
-.HeaderNavLink {
-    color: #0065FC;
+.HeaderNavLink { 
     padding: 2rem 1rem;
     text-decoration: none;
+}
+
+.HeaderNavLink:hover {
+    color: #0065FC;
 }
 
 .HeaderSignUpLink {
