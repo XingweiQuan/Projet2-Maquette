@@ -4,7 +4,7 @@
 }
 
 .BodyMain {
-    max-width: 95%;
+    width: 95%;
     margin: auto; /* Pourquoi margin auto est obligatoire */
 }
 
@@ -140,13 +140,12 @@ header nav ul li {
     display: flex;
     align-items: center;
     justify-content: center;
-    border:1px solid gray;
+    border: 1px solid gray;
     height: 1rem;
     width: 1rem;
     border-radius: 30px;
     padding: 0.5rem;
 }
-
 
 /* HOSTING */
 
@@ -266,8 +265,8 @@ header nav ul li {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding:0 0.8rem 0.8rem 0.8rem;
-    font-size: 0.8em; /* Comment régler le dépassement */
+    padding: 0 0.8rem 0.8rem 0.8rem;
+    font-size: 0.8em; 
 }
 
 .HostingRightArticleFigure {
@@ -293,6 +292,7 @@ header nav ul li {
     color:#F2F2F2;
 }
 
+/* ACTIVITY */
 
 #Activity {
     display: flex;
@@ -386,6 +386,8 @@ header nav ul li {
     font-weight: bold;
     font-size: 0.8rem;
 }
+
+/* FOOTER */
 
 #Footer {
     background-color: #F2F2F2;
