@@ -24,6 +24,10 @@ header nav ul li {
     margin-right: 30px;
 }
 
+.actif {
+    border-top: 3px solid #0065FC;
+}
+
 .HeaderNavLink {
     color: #0065FC;
     text-decoration: none;
@@ -33,7 +37,6 @@ header nav ul li {
     color: #0065FC;
     text-decoration: none;
 }
-
 
 /* SEARCH */
 
@@ -412,6 +415,15 @@ header nav ul li {
 .FooterContentLink {
     display: flex;
     flex-direction: column;
+}
+
+footer li {
+    list-style-type: none;
+}
+
+footer ul {
+    margin: 0;
+    padding: 0;
 }
 
 .FooterContentLink a {
