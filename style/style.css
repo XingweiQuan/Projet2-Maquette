@@ -13,7 +13,7 @@
 header {
     display: flex;
     justify-content: space-between;
-    padding:20px 0;
+    padding: 1rem 0;
 }
 
 header nav ul {
@@ -33,11 +33,13 @@ header nav ul li {
 
 .HeaderNavLink {
     color: #0065FC;
+    padding: 2rem 1rem;
     text-decoration: none;
 }
 
 .HeaderSignUpLink {
     color: #0065FC;
+    padding: 2rem 1rem;
     font-weight: bold;
     text-decoration: none;
 }
