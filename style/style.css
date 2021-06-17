@@ -13,6 +13,7 @@
 header {
     display: flex;
     justify-content: space-between;
+    padding:20px 0;
 }
 
 header nav ul {
@@ -21,6 +22,8 @@ header nav ul {
 }
 
 header nav ul li {
+    color: #0065FC;
+    text-decoration: none;
     margin-right: 30px;
 }
 
@@ -35,6 +38,7 @@ header nav ul li {
 
 .HeaderSignUpLink {
     color: #0065FC;
+    font-weight: bold;
     text-decoration: none;
 }
 
@@ -45,10 +49,6 @@ header nav ul li {
     flex-direction: column;
   }
 
-.SearchHeader p {
-    color: gray;
-}
-
 .SearchForm {
     display: flex;
 }
@@ -58,6 +58,7 @@ header nav ul li {
     border-top: 1px solid #F2F2F2;
     border-bottom: 1px solid #F2F2F2;
     font-weight: bold;
+    color: black;
     font-size: 1.1em;
     padding-left: 1rem;
 }
@@ -135,7 +136,6 @@ header nav ul li {
 }
 
 .SearchResult span {
-    color: gray;
     padding-left: 1rem;
 }
 
@@ -175,6 +175,7 @@ header nav ul li {
 .HostingLeft a {
     color: black;
     font-weight: bold;
+    text-decoration: none;
     padding-left: 2rem;
     padding-bottom: 1rem;
   }
