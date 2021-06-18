@@ -203,6 +203,7 @@ header nav ul li {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    box-shadow: 0.5px 0.5px 10px lightgray;
 }
 
 .HostingLeftArticleFigure {
@@ -210,6 +211,7 @@ header nav ul li {
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     overflow: hidden;
+    flex: 1;
 }
 
 .HostingLeftArticleFigureImg {
@@ -221,8 +223,10 @@ header nav ul li {
 
 .HostingLeftArticleContent {
     font-size: 0.8em;
-    padding: 0 0.8rem;
+    padding: 0 1rem;
 }
+
+
 
 .HostingLeftArticleGrade .blue {
     color: #0065FC;
@@ -266,6 +270,7 @@ header nav ul li {
     display: flex;
     height: 150px;
     padding: 5px;
+    box-shadow: 0.5px 0.5px 10px lightgray;
 }
 
 .HostingRightArticleContent {
@@ -328,7 +333,7 @@ header nav ul li {
     background-color: white;
     height: 100%;
     border-radius: 20px;
-    border: 1px solid;
+    box-shadow: 0.5px 0.5px 10px lightgray;
     max-width: 22%;
     display: flex;
     flex-direction: column;
@@ -337,7 +342,7 @@ header nav ul li {
 .ActivityMainArticle1 {
     background-color: white;
     border-radius: 20px;
-    border: 1px solid;
+    box-shadow: 0.5px 0.5px 10px lightgray;
     max-width: 100%;
     height: 45%;
     display: flex;
@@ -347,7 +352,7 @@ header nav ul li {
 .ActivityMainArticle2 {
     background-color: white;
     border-radius: 20px;
-    border: 1px solid;
+    box-shadow: 0.5px 0.5px 10px lightgray;
     max-width: 100%;
     height: 45%;
     display: flex;
@@ -357,7 +362,7 @@ header nav ul li {
 .ActivityMainArticle3 {
     background-color: white;
     border-radius: 20px;
-    border: 1px solid;
+    box-shadow: 0.5px 0.5px 10px lightgray;
     max-width: 100%;
     height: 45%;
     display: flex;
@@ -367,7 +372,7 @@ header nav ul li {
 .ActivityMainArticle4 {
     background-color: white;
     border-radius: 20px;
-    border: 1px solid;
+    box-shadow: 0.5px 0.5px 10px lightgray;
     max-width: 100%;
     height: 45%;
     display: flex;
