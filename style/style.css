@@ -3,6 +3,8 @@
     src: url(Raleway-Regular.ttf);
 }
 
+
+
 .BodyMain {
     width: 95%;
     margin: auto; /* Pourquoi margin auto est obligatoire */
@@ -224,6 +226,7 @@ header nav ul li {
 .HostingLeftArticleContent {
     font-size: 0.8em;
     padding: 0 1rem;
+    line-height: 0.8rem;
 }
 
 
