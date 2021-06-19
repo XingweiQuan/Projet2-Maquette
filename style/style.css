@@ -510,6 +510,10 @@ footer ul {
         color: #0065FC;
     }
 
+    .SearchHeader {
+        margin-top: 1rem;
+    }
+
     .SearchForm {
         justify-content: center;
     }
