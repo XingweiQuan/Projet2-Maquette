@@ -472,14 +472,23 @@ footer ul {
     .HeaderNav {
         order: 3;
         display: flex;
-        justify-content: space-around;
+        justify-content: center;
         width: 100%;
+    }
+
+    header nav ul {
+        padding-left: 0;
+    }
+
+    header nav ul li {
+        width: 100%;
+        margin: 0;
     }
 
     .HeaderNavLink {
         padding: 1rem;
         border-bottom: 3px solid #F2F2F2;
-        width: 100%; /* Pourquoi ça ne marche pas */
+        
     }
 
     .HeaderNavLink:hover {
