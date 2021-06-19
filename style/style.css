@@ -18,6 +18,10 @@ header {
     padding: 1rem 0;
 }
 
+.HeaderLogo {
+    flex: 2;
+}
+
 header nav ul {
     list-style-type: none;
     display: flex;
@@ -445,9 +449,9 @@ footer ul {
     text-decoration: none;
 }
 
-@media screen and (max-width :980px) {
+@media (max-width: 980px) {
 
-    .BodyMain {
+    body {
         width: 100%;
         padding: 0;
     }
@@ -457,9 +461,31 @@ footer ul {
         width: 100%;
     }
     
+    .HeaderLogo {
+        order: 1;   
+    }
+
+    .HeaderSignUpLink {
+       order: 2;
+    }
+
     .HeaderNav {
-       
-        width: 200%;
+        order: 3;
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+    }
+
+    .HeaderNavLink {
+        padding: 1rem;
+        border-bottom: 3px solid #F2F2F2;
+        width: 100%; /* Pourquoi ça ne marche pas */
+    }
+
+    .HeaderNavLink:hover {
+        border-top: none;
+        border-bottom: 3px solid #0065FC;
+        color: #0065FC;
     }
 
 }
