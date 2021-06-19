@@ -27,17 +27,13 @@ header nav ul li {
     margin-right: 30px;
 }
 
-.actif {
-    color: #0065FC;
-    border-top: 3px solid #0065FC;
-}
-
 .HeaderNavLink { 
     padding: 2rem 1rem;
     text-decoration: none;
 }
 
 .HeaderNavLink:hover {
+    border-top: 3px solid #0065FC;
     color: #0065FC;
 }
 
