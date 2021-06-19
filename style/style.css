@@ -59,6 +59,14 @@ header nav ul li {
     flex-direction: column;
   }
 
+.SearchHeader {
+    margin: 2rem 0;
+}
+
+.SearchHeader h1 {
+    margin-block-end: 1rem;
+}
+
 .SearchForm {
     display: flex;
 }
@@ -84,7 +92,7 @@ header nav ul li {
     border-right: none;
   }
 
-  .SearchFormButton {
+.SearchFormButton {
     color: white;
     background-color: #0065fc;
     border: none;
@@ -95,10 +103,14 @@ header nav ul li {
     font-size: 1.1em;
   }
 
+.SearchFormLoupe {
+    display: none;
+}
+
 .SearchFilters {
     display: flex;
     align-items: center;
-    margin-top: 2rem;
+    margin-top: 1rem;
 }
 
 .SearchFilter {
@@ -142,7 +154,8 @@ header nav ul li {
 .SearchResult {
     display: flex;
     align-items: center;
-    padding: 2rem 0;
+    padding: 0;
+    margin: 1rem 0 2rem 0;
 }
 
 .SearchResult span {
@@ -495,6 +508,28 @@ footer ul {
         border-top: none;
         border-bottom: 3px solid #0065FC;
         color: #0065FC;
+    }
+
+    .SearchForm {
+        justify-content: center;
+    }
+
+    .SearchFormButton {
+        display: none;
+    }
+
+    .SearchFormLoupe {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 1.5rem;
+        width: 1.5rem; 
+        color: white;
+        background-color: #0065fc;
+        border: none;
+        padding: 1rem;
+        border-radius: 10px;
+        font-size: 1.1em;
     }
 
 }
