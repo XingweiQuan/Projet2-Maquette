@@ -7,7 +7,7 @@
 
 .BodyMain {
     width: 95%;
-    margin: auto; /* Pourquoi margin auto est obligatoire */
+    margin: auto; 
 }
 
 /* HEADER */
@@ -179,18 +179,19 @@ header nav ul li {
 
 #Hosting {
     display: flex;
+    justify-content: space-between;
     margin-bottom: 3rem;
 }
 
 .HostingLeft {
     background-color: #F2F2F2;
-    width: 70%;
+    width: 60%;
     border-radius: 20px;
-    padding: 2rem 1rem;
+    padding: 1rem;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    margin-right: 3rem;
+    justify-content: space-around;
+    
 }
 
 .HostingLeft h2 {
@@ -211,6 +212,7 @@ header nav ul li {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    
 }
 
 .HostingLeftArticle {
@@ -264,14 +266,15 @@ header nav ul li {
     border-radius: 20px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    padding: 2rem 2rem;
+    align-items: center;
+    padding: 1rem;
 }
 
 .HostingRightHeader {
+    width: 90%;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .HostingRightHeader i {
@@ -283,14 +286,16 @@ header nav ul li {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    flex: 1;
+    
 }
 
 .HostingRightArticle {
     background-color: white;
     border-radius: 20px;
     display: flex;
+    margin: 1rem 0;
     height: 150px;
+    width: 90%;
     padding: 5px;
     box-shadow: 0.5px 0.5px 10px lightgray;
 }
@@ -466,14 +471,14 @@ footer ul {
 
 @media (max-width: 980px) {
 
-    body {
+    .BodyMain {
         width: 100%;
         padding: 0;
     }
 
     header {
         flex-wrap: wrap;
-        width: 100%;
+        margin: 0 1rem;
     }
     
     .HeaderLogo {
@@ -510,6 +515,14 @@ footer ul {
         border-top: none;
         border-bottom: 3px solid #0065FC;
         color: #0065FC;
+    }
+
+    .HeaderSignUpLink {
+        padding-right: 0;
+    }
+
+    #Search {
+        margin: 0 1rem;
     }
 
     .SearchHeader {
@@ -553,6 +566,18 @@ footer ul {
 
     .SearchFilterButton {
         margin-bottom: 1rem;
+    }
+
+    #Hosting {
+        flex-direction: column-reverse;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .HostingRight {
+        width: 100%;
+        padding: 0;
+        border-radius: initial;
     }
 
 }
