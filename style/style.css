@@ -34,7 +34,7 @@ header nav ul {
 }
 
 header nav ul li {  
-    padding: 2rem 2rem 0 2rem;
+    padding: 2rem 0 0 0;
     margin: 0;
 }
 
@@ -43,12 +43,12 @@ header nav ul li {
 }
 
 .HeaderNavLink { 
-    padding: 0;
+    padding: 2rem 2rem 0 2rem;
     text-decoration: none;
 }
 
-.HeaderNavLink:hover {
-    border-top: 3px solid #0065FC;
+.HeaderNav ul li:hover{
+    border-top: 2px solid #0065FC;
     color: #0065FC;
 }
 
@@ -513,16 +513,12 @@ footer ul {
         width: 50%;
         margin: 0;
         text-align: center;
-        padding: 1rem;
+        padding: 1rem 0 1rem 0;
         border-bottom: 3px solid #F2F2F2;
     }
 
-    .HeaderNavLink:hover {
+    .HeaderNav ul li:hover {
         border-top: none;
-        color: #0065FC;
-    }
-
-    header li:hover {
         border-bottom: 3px solid #0065FC;
         color: #0065FC;
     }
