@@ -43,7 +43,7 @@ header nav ul li {
     text-decoration: none;
 }
 
-header li:hover{
+.HeaderNavLink:hover{
     border-top: 2px solid #0065FC;
     color: #0065FC;
 }
@@ -500,6 +500,10 @@ footer ul {
         width: 100%;
     }
 
+    .HeaderNavLink {
+        padding: 2rem 2rem 1rem 2rem;
+    }
+
     header nav ul {
         display: flex;
         padding-left: 0;
@@ -513,7 +517,7 @@ footer ul {
         border-bottom: 3px solid #F2F2F2;
     }
 
-    .HeaderNav ul li:hover {
+    .HeaderNavLink:hover {
         border-top: none;
         border-bottom: 3px solid #0065FC;
         color: #0065FC;
