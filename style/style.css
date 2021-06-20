@@ -114,12 +114,13 @@ header nav ul li {
 }
 
 .SearchFilter {
-    margin-left: 0.5rem;
+    margin-left: 0;
   }
 
 .SearchFilterList {
     list-style-type: none;
     display: flex;
+    flex-wrap: wrap;
 }
 
 .SearchFilterButton {
@@ -144,8 +145,8 @@ header nav ul li {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 1.5rem;
-    width: 1.5rem; 
+    height: 1.2rem;
+    width: 1.2rem; 
     color: #0065FC;
     border-radius: 30px;
     padding:1rem;
@@ -159,11 +160,12 @@ header nav ul li {
 }
 
 .SearchResult span {
-    padding-left: 1rem;
+    margin: auto auto auto 0.5rem;
 }
 
 .SearchResultIcon {
     display: flex;
+    color: #0065FC;
     align-items: center;
     justify-content: center;
     border: 1px solid gray;
@@ -534,6 +536,23 @@ footer ul {
         padding: 1rem;
         border-radius: 10px;
         font-size: 1.1em;
+    }
+
+    .SearchFilters {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .SearchFilterTitle {
+        margin-bottom: 0;
+    }
+
+    .SearchFilterList {
+        padding-left: 0;
+    }
+
+    .SearchFilterButton {
+        margin-bottom: 1rem;
     }
 
 }
