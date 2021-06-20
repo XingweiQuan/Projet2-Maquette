@@ -28,7 +28,7 @@ header nav ul {
 }
 
 header nav ul li {  
-    margin-right: 30px;
+     margin: 0 0 0 1rem;
 }
 
 .HeaderNav {
@@ -36,7 +36,7 @@ header nav ul li {
 }
 
 .HeaderNavLink { 
-    padding: 2rem 1rem;
+    padding: 2rem 1rem 0 1rem;
     text-decoration: none;
 }
 
@@ -48,6 +48,7 @@ header nav ul li {
 .HeaderSignUpLink {
     color: #0065FC;
     padding: 1rem;
+    margin: 0 0 0 1rem;
     font-weight: bold;
     text-decoration: none;
 }
@@ -491,28 +492,30 @@ footer ul {
 
     .HeaderNav {
         order: 3;
-        display: flex;
+        display: block;
         justify-content: center;
         width: 100%;
     }
 
     header nav ul {
+        display: flex;
         padding-left: 0;
     }
 
     header nav ul li {
-        width: 100%;
+        width: 50%;
         margin: 0;
-    }
-
-    .HeaderNavLink {
+        text-align: center;
         padding: 1rem;
         border-bottom: 3px solid #F2F2F2;
-        
     }
 
     .HeaderNavLink:hover {
         border-top: none;
+        color: #0065FC;
+    }
+
+    header li:hover {
         border-bottom: 3px solid #0065FC;
         color: #0065FC;
     }
