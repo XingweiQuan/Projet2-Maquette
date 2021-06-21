@@ -195,14 +195,14 @@ header nav ul li {
     margin-right: 2rem;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     
 }
 
 .HostingLeft h2 {
     padding-left: 0;
     margin-left: 5px;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
 }
 
 .HostingLeft a {
@@ -292,7 +292,6 @@ header nav ul li {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    
 }
 
 .HostingRightArticle {
@@ -588,10 +587,36 @@ footer ul {
         border-radius: initial;
     }
 
+    .HostingRightArticle {
+        width: 90%;
+    }
+
     .HostingLeft {
         flex-direction: column;
         flex-wrap: wrap;
-        width: 100%
+        width: 100%;
+        margin: 0;
         padding: 0;
+        border-radius: initial;
+        background-color: white;
+    }
+
+    .HostingLeft h2 {
+        margin-left: 5%;
+    }
+
+    .HostingLeft a {
+        margin: 5%;
+    }
+
+    .HostingLeftArticles {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .HostingLeftArticle {
+        width: 90%;
     }
 }
