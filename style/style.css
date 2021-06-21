@@ -485,6 +485,8 @@ footer ul {
         padding: 0;
     }
 
+    /* HEADER VERSION MOBILE */
+
     header {
         flex-wrap: wrap;
         margin: 0 1rem;
@@ -532,6 +534,8 @@ footer ul {
         padding-right: 0;
     }
 
+    /* SEARCH VERSION MOBILE */
+
     #Search {
         margin: 0 1rem;
     }
@@ -578,6 +582,8 @@ footer ul {
     .SearchFilterButton {
         margin-bottom: 1rem;
     }
+
+    /* HOSTING VERSION MOBILE */
 
     #Hosting {
         flex-direction: column-reverse;
@@ -636,4 +642,8 @@ footer ul {
     .HostingLeftArticle {
         width: 90%;
     }
+
+    /* ACTIVITY VERSION MOBILE */
+
+    
 }
