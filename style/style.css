@@ -346,6 +346,7 @@ header nav ul li {
 #Activity {
     display: flex;
     flex-direction: column;
+    
 }
 
 .ActivityMain {
@@ -358,7 +359,7 @@ header nav ul li {
 }
 
 .ActivityMainArticleColumn {
-    max-width: 22%;
+    width: 22%;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -370,7 +371,7 @@ header nav ul li {
     height: 100%;
     border-radius: 20px;
     box-shadow: 0.5px 0.5px 10px lightgray;
-    max-width: 22%;
+    width: 22%;
     display: flex;
     flex-direction: column;
 }
@@ -589,6 +590,7 @@ footer ul {
         flex-direction: column-reverse;
         flex-wrap: wrap;
         width: 100%;
+        margin-bottom: 0;
     }
 
     .HostingRight {
@@ -645,5 +647,58 @@ footer ul {
 
     /* ACTIVITY VERSION MOBILE */
 
-    
+    #Activity {
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    #Activity h2 {
+        margin-left: 5%;
+    }
+
+    .ActivityMain {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        height: auto;
+        margin: 0;
+        padding: 0;
+    }
+
+    .ActivityMainArticle {
+        width: 90%;
+        height: 200px;
+    }
+
+    .ActivityMainArticleColumn {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+    }
+
+    .ActivityMainArticle1 {
+        width: 100%;
+        height: 200px;
+    }
+
+    .ActivityMainArticle2 {
+        width: 100%;
+        height: 200px;
+    }
+
+    .ActivityMainArticle3 {
+        width: 100%;
+        height: 200px;
+    }
+
+    .ActivityMainArticle4 {
+        width: 100%;
+        height: 200px;
+    }
 }
