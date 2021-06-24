@@ -85,6 +85,11 @@ header nav ul li {
     padding-left: 1rem;
 }
 
+.SearchForm input::placeholder{
+    color: black;
+    
+    }
+
 .SearchFormIcon {
     display: flex;
     align-items: center;
