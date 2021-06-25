@@ -38,6 +38,11 @@ header nav ul li {
     margin: 0;
 }
 
+header .Actif {
+    border-top: 2px solid #0065FC;
+    color: #0065FC;
+}
+
 .HeaderNavLink { 
     padding: 2rem 2rem 0 2rem;
     text-decoration: none;
