@@ -200,7 +200,7 @@ header .Actif {
 
 .HostingLeft {
     background-color: #F2F2F2;
-    width: 65%;
+    width: 70%;
     border-radius: 20px;
     padding: 1rem;
     margin-right: 2rem;
@@ -233,7 +233,7 @@ header .Actif {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    justify-content: center;
+    justify-content: space-around;
     align-content: space-around;
     width: 100%;
 }
@@ -242,7 +242,7 @@ header .Actif {
     background-color: white;
     border-radius: 20px;
     
-    width: 30%;
+    width: 28%;
     margin: 1rem 5px;
     padding: 5px;
     display: flex;
@@ -537,6 +537,12 @@ footer ul {
         padding: 1rem 0 1rem 0;
         border-bottom: 3px solid #F2F2F2;
         
+    }
+
+    header .Actif {
+        border-top: none;
+        border-bottom: 3px solid #0065FC;
+        color: #0065FC;
     }
 
     .HeaderNavLink:hover {
