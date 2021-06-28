@@ -491,7 +491,7 @@ footer ul {
     text-decoration: none;
 }
 
-@media (max-width: 980px) {
+@media (max-width: 375px) {
 
     .BodyMain {
         width: 100%;
