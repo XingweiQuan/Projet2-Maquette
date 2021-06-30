@@ -506,7 +506,9 @@ footer ul {
         padding-left: 0;
     }
 
-    
+    .SearchFilterButton {
+        margin-bottom: 0.5rem;
+    }
 
 }
 
