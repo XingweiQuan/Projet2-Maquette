@@ -510,6 +510,63 @@ footer ul {
         margin-bottom: 0.5rem;
     }
 
+    #Hosting {
+        flex-direction: column-reverse;
+        flex-wrap: wrap;
+        width: 100%;
+        margin-bottom: 0;
+    }
+
+    .HostingRight {
+        width: 100%;
+        padding: 0;
+    }
+
+    .HostingRightArticles {
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+
+    .HostingRightArticle {
+        width: 90%;
+    }
+
+    .HostingLeft {
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 100%;
+        margin: 1rem 0;
+        padding: 0;
+        background-color:#F2F2F2;
+    }
+
+    .HostingLeft h2 {
+        margin-left: 5%;
+    }
+
+    .HostingLeft a {
+        margin: 2rem 5%;
+    }
+
+    .HostingLeftArticles {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .Row {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+    }
+
+    .HostingLeftArticle {
+        width: 90%;
+    }
+    
 }
 
 @media (max-width: 375px) {
