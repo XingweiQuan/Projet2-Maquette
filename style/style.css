@@ -195,7 +195,7 @@ header .Actif {
 #Hosting {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 3rem;
+    margin-bottom: 1rem;
 }
 
 .HostingLeft {
