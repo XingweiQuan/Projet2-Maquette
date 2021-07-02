@@ -4,7 +4,6 @@
 }
 
 
-
 .BodyMain {
     width: 95%;
     margin: auto; 
@@ -261,7 +260,7 @@ header .Actif {
 
 .HostingLeftArticleFigureImg {
     width: 100%;
-    height: 120px; /* height: 100% */
+    height: 120px; 
     object-fit: cover;
     object-position: center;
 }
@@ -459,7 +458,7 @@ header .Actif {
 
 .FooterBox {
     width: 95%;
-    margin: auto; /* Pourquoi margin auto est obligatoire */
+    margin: auto; 
     display: flex;
     justify-content: space-between;
 }
@@ -995,3 +994,5 @@ footer ul {
         margin-bottom: 1rem;
     }
 }
+
+
