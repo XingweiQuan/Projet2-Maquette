@@ -4,6 +4,11 @@
 }
 
 
+body {
+    margin-left: 0;
+    margin-right: 0;
+}
+
 .BodyMain {
     width: 95%;
     margin: auto; 
@@ -745,7 +750,7 @@ footer ul {
 }
 
 
-@media (max-width: 375px) {
+@media screen and (max-width: 375px) {
 
     .BodyMain {
         width: 100%;
@@ -756,7 +761,7 @@ footer ul {
 
     header {
         flex-wrap: wrap;
-        margin: 0 1rem;
+        margin: 0;
     }
     
     .HeaderLogo {
@@ -820,6 +825,7 @@ footer ul {
     }
 
     .SearchForm {
+        display: flex;
         justify-content: center;
     }
 
