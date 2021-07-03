@@ -553,6 +553,10 @@ footer ul {
     .HostingLeft a {
         margin: 2rem 5%;
     }
+    
+    .Row {
+        justify-content: center;
+    }
 
     /*
 
