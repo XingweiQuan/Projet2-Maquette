@@ -482,6 +482,7 @@ header .Actif {
 
 footer li {
     list-style-type: none;
+    margin-bottom: 0.5rem;
 }
 
 footer ul {
@@ -750,7 +751,7 @@ footer ul {
 }
 
 
-@media screen and (max-width: 375px) {
+@media (max-width: 375px) {
 
     .BodyMain {
         width: 100%;
@@ -765,7 +766,8 @@ footer ul {
     }
     
     .HeaderLogo {
-        order: 1;   
+        order: 1;  
+        margin-left: 1rem; 
     }
 
     .HeaderSignUpLink {
@@ -812,6 +814,7 @@ footer ul {
 
     .HeaderSignUpLink {
         padding-right: 0;
+        margin-right: 1rem;
     }
 
     /* SEARCH VERSION MOBILE */
@@ -900,6 +903,7 @@ footer ul {
 
     .HostingLeft h2 {
         margin-left: 5%;
+        
     }
 
     .HostingLeft a {
