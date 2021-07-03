@@ -247,7 +247,7 @@ header .Actif {
     border-radius: 20px;
     
     width: 28%;
-    margin: 1rem 5px;
+    margin: 1rem 0;
     padding: 5px;
     display: flex;
     flex-direction: column;
@@ -555,9 +555,12 @@ footer ul {
     }
     
     .Row {
-        justify-content: center;
+        justify-content: space-between;
+        width: 90%;
+        margin: auto; 
     }
 
+    
     /*
 
     .HostingLeftArticles {
@@ -682,6 +685,25 @@ footer ul {
 
     .SearchFilterButton {
         margin-bottom: 1rem;
+    }
+
+    .HostingLeftArticles {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .Row {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+    }
+
+    .HostingLeftArticle {
+        width: 90%;
     }
 
     #Activity {
