@@ -607,8 +607,10 @@ footer ul {
     }
 
     .HeaderNavLink {
-        padding: 2rem 2rem 1rem 2rem;
-
+        display: inline-block;
+        width: 100%;
+        padding: 2rem 0 1rem 0;
+        border-bottom: 3px solid #F2F2F2; 
     }
 
     header nav ul {
@@ -620,8 +622,8 @@ footer ul {
         width: 50%;
         margin: 0;
         text-align: center;
-        padding: 1rem 0 1rem 0;
-        border-bottom: 3px solid #F2F2F2;   
+        padding: 0;
+          
     }
 
     header .Actif {
@@ -811,8 +813,10 @@ footer ul {
     }
 
     .HeaderNavLink {
-        padding: 2rem 2rem 1rem 2rem;
-
+        display: inline-block;
+        width: 100%;
+        padding: 2rem 0 1rem 0;
+        border-bottom: 3px solid #F2F2F2;
     }
 
     header nav ul {
@@ -824,8 +828,7 @@ footer ul {
         width: 50%;
         margin: 0;
         text-align: center;
-        padding: 1rem 0 1rem 0;
-        border-bottom: 3px solid #F2F2F2;
+        padding: 0;
         
     }
 
