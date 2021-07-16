@@ -5,6 +5,7 @@
 
 
 body {
+    margin-top: 3px;
     margin-left: 0;
     margin-right: 0;
 }
@@ -149,6 +150,10 @@ header .Actif {
     font-weight: bold;
     font-size: 1.1em;
     margin-right: 1rem;
+}
+
+.SearchFilterButton:hover {
+    background-color:#DEEBFF;
 }
 
 .SearchFilterButton span {
